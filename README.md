@@ -1,2 +1,0 @@
-# ORBIS
-Tourism management system 
