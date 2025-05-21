@@ -19,7 +19,7 @@ class FavoriteScreen extends StatelessWidget {
           style: TextStyle(
             fontSize: 32,
             fontFamily: "MPLUSRounded1c",
-            fontWeight: FontWeight.w400,
+            fontWeight: FontWeight.w400, 
             color: AppColor().black,
           ),
         ),

@@ -24,7 +24,7 @@ class _MainscreenState extends State<Mainscreen> {
       appBar: AppBar(
         toolbarHeight: 27,
         backgroundColor:
-            indexslected == 2 ? AppColor().baiscblue1 : Colors.white,
+             indexslected == 2 ? AppColor().baiscblue1 : Colors.white,
       ),
       // drawer: Customdrower(),
 
