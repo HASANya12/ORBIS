@@ -36,7 +36,9 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_svg: ^2.1.0
   flutter_animate: ^4.5.2
-
+  # bloc
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.7
    # otp
   pinput: ^5.0.1  
 

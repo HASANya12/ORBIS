@@ -65,7 +65,7 @@ class Customtextfield extends StatelessWidget {
               )
               //////////////////////////phone field//////////////////////
               : SizedBox(
-                child: IntlPhoneField(
+                child:  IntlPhoneField(
                   cursorColor: AppColor().blackblue,
                   obscureText: showText,
                   keyboardType: TextInputType.phone,
