@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:orbis/domain/business%20logic/authentication/authcontroller/auth_cubit.dart';
-import 'package:orbis/domain/business%20logic/authentication/passworsshow/passwordshow_cubit.dart';
-import 'package:orbis/domain/business%20logic/authentication/passworsshow/passwordshow_state.dart';
+import 'package:orbis/domain/busineslogic/authentication/authcontroller/auth_cubit.dart';
+import 'package:orbis/domain/busineslogic/authentication/passworsshow/passwordshow_cubit.dart';
+import 'package:orbis/domain/busineslogic/authentication/passworsshow/passwordshow_state.dart';
 import 'package:orbis/presentation/widgets/backgroundauth.dart';
 import 'package:orbis/presentation/widgets/custombottn.dart';
 import 'package:orbis/presentation/widgets/customtextfield.dart';
@@ -126,7 +126,7 @@ class _ResetpasswordState extends State<Resetpassword> {
                       width: Responsive(context).width * 0.35,
                       text: "Confirm",
                       boxcolor: AppColor().baiscblue.withAlpha(190),
-                      textcolor: AppColor().baiscblue,
+                      // textcolor: AppColor().baiscblue,
                     ),
                   ),
                 ],

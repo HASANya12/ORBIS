@@ -1,6 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:orbis/domain/busineslogic/authentication/authcontroller/auth_cubit.dart';
+import 'package:orbis/domain/busineslogic/authentication/authway/authway_cubit.dart';
+import 'package:orbis/domain/busineslogic/authentication/authway/authway_state.dart';
+import 'package:orbis/domain/busineslogic/authentication/passworsshow/passwordshow_cubit.dart';
+import 'package:orbis/domain/busineslogic/authentication/passworsshow/passwordshow_state.dart';
+import 'package:orbis/domain/busineslogic/imagrpicker/imagepicker_cubit.dart';
+import 'package:orbis/domain/busineslogic/imagrpicker/imagepicker_state.dart';
+import 'package:orbis/presentation/widgets/customDialog.dart';
 
 import 'package:orbis/presentation/widgets/custombottn.dart';
 import 'package:orbis/presentation/widgets/customtextfield.dart';
@@ -289,7 +297,8 @@ class SinupScreen extends StatelessWidget {
                     height: 48,
                     width: 163,
                     text: "Next",
-                    boxcolor: AppColor().baiscblue, colorfromleft: true, withsborder:false,
+                    boxcolor: AppColor().baiscblue,
+                    //  colorfromleft: true, withsborder:false,
                   ),
                 ),
               ],

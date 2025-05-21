@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:orbis/domain/business%20logic/authentication/authcontroller/auth_cubit.dart';
-import 'package:orbis/domain/business%20logic/authentication/authway/authway_cubit.dart';
-import 'package:orbis/domain/business%20logic/authentication/authway/authway_state.dart';
+import 'package:orbis/domain/busineslogic/authentication/authcontroller/auth_cubit.dart';
+import 'package:orbis/domain/busineslogic/authentication/authway/authway_cubit.dart';
+import 'package:orbis/domain/busineslogic/authentication/authway/authway_state.dart';
 import 'package:orbis/presentation/widgets/backgroundauth.dart';
 import 'package:orbis/presentation/widgets/custombottn.dart';
 import 'package:orbis/presentation/widgets/customtextfield.dart';
@@ -124,7 +124,7 @@ class Phoneoremail extends StatelessWidget {
                         width: Responsive(context).width * 0.35,
                         text: "Confirm",
                         boxcolor: AppColor().baiscblue.withAlpha(200),
-                        textcolor: AppColor().baiscblue,
+                        // textcolor: AppColor().baiscblue,
                       ),
                     ),
                   ],

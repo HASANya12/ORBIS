@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:orbis/domain/business%20logic/authentication/authcontroller/auth_cubit.dart';
-import 'package:orbis/domain/business%20logic/authentication/authcontroller/auth_state.dart';
-import 'package:orbis/domain/business%20logic/authentication/authway/authway_cubit.dart';
-import 'package:orbis/domain/business%20logic/authentication/authway/authway_state.dart';
-import 'package:orbis/domain/business%20logic/authentication/passworsshow/passwordshow_cubit.dart';
-import 'package:orbis/domain/business%20logic/authentication/passworsshow/passwordshow_state.dart';
+import 'package:orbis/domain/busineslogic/authentication/authcontroller/auth_cubit.dart';
+import 'package:orbis/domain/busineslogic/authentication/authcontroller/auth_state.dart';
+import 'package:orbis/domain/busineslogic/authentication/authway/authway_cubit.dart';
+import 'package:orbis/domain/busineslogic/authentication/authway/authway_state.dart';
+import 'package:orbis/domain/busineslogic/authentication/passworsshow/passwordshow_cubit.dart';
+import 'package:orbis/domain/busineslogic/authentication/passworsshow/passwordshow_state.dart';
 import 'package:orbis/presentation/widgets/custombottn.dart';
 import 'package:orbis/presentation/widgets/customtextfield.dart';
 import 'package:orbis/presentation/widgets/textwithborder.dart';
@@ -214,13 +214,13 @@ class SinginScreen extends StatelessWidget {
                             );
                           }
                         },
-                        colorfromleft: null,
+                        // colorfromleft: null,
 
                         height: 48,
                         width: 163,
                         text: "Login",
                         boxcolor: AppColor().baiscblue,
-                        withsborder: true,
+                        // withsborder: true,
                         withshadow: true,
                       ),
                     ),
