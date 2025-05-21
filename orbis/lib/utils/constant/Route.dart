@@ -1,7 +1,20 @@
+import 'package:flutter/material.dart';
+import 'package:orbis/presentation/screens/Drawerscreen/offers.dart';
+import 'package:orbis/presentation/screens/Drawerscreen/rateus.dart';
+import 'package:orbis/presentation/screens/Drawerscreen/support.dart';
+import 'package:orbis/presentation/screens/Drawerscreen/todolist.dart';
 import 'package:orbis/presentation/screens/appscreens/Favorite_screen.dart';
+import 'package:orbis/presentation/screens/appscreens/Home_screen.dart';
 import 'package:orbis/presentation/screens/appscreens/Location_screen.dart';
 import 'package:orbis/presentation/screens/appscreens/Profile_screen.dart';
 import 'package:orbis/presentation/screens/appscreens/mainscreen.dart';
+import 'package:orbis/presentation/screens/authentication/chooselocation.dart';
+import 'package:orbis/presentation/screens/authentication/loction_screen.dart';
+import 'package:orbis/presentation/screens/authentication/phoneoremail.dart';
+import 'package:orbis/presentation/screens/authentication/resetpassword.dart';
+import 'package:orbis/presentation/screens/authentication/singin_screen.dart';
+import 'package:orbis/presentation/screens/authentication/sinup_screen.dart';
+import 'package:orbis/presentation/screens/authentication/verification_screen.dart';
 
 Map<String, Widget Function(BuildContext)> routes = {
 
