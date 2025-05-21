@@ -1,12 +1,12 @@
+
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class AppColor {
   ////////////App
 
   final Color baiscblue = Color(0xE01a95b3);
   final Color baiscblue2 = Color(0xFF348499);
-  final Color baiscblue1 = Color(0xFA7b99a2);
+  final Color baiscblue1 = Color(0xFA46a8c0);
   final Color blackblue = Color(0xE00c3f4d);
   final Color blackblue1 = Color(0xFA0c3f4d);
   final Color darkbluae = Color(0xE0184956);
@@ -20,4 +20,8 @@ class AppColor {
   final Color gray = Color(0xE073777A);
   final Color black = Color(0xE0090a0a);
   final Color white = Color(0xE0deeee1);
+
+  /////////////////
+  final Color yellow = Color(0xF0FFCC00);
+  final Color whitee = Colors.white;
 }
