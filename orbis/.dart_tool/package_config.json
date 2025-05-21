@@ -158,6 +158,12 @@
       "languageVersion": "3.5"
     },
     {
+      "name": "pinput",
+      "rootUri": "file:///C:/Users/yaroo/AppData/Local/Pub/Cache/hosted/pub.dev/pinput-5.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///C:/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -204,6 +210,12 @@
       "rootUri": "file:///C:/Users/yaroo/AppData/Local/Pub/Cache/hosted/pub.dev/typed_data-1.4.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
+    },
+    {
+      "name": "universal_platform",
+      "rootUri": "file:///C:/Users/yaroo/AppData/Local/Pub/Cache/hosted/pub.dev/universal_platform-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "vector_graphics",
@@ -254,7 +266,7 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-05-21T07:04:08.877335Z",
+  "generated": "2025-05-21T07:23:29.853263Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///C:/flutter",
