@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "660366705321",
+    "project_id": "orbis-87f28",
+    "storage_bucket": "orbis-87f28.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660366705321:android:413bde7548e8b5a0469fb8",
+        "android_client_info": {
+          "package_name": "com.example.orbis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD3BP-B5gRDGRea0Rn9hySJ8KzK_k1iQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
