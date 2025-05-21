@@ -65,8 +65,7 @@ dependencies:
   image_picker: ^1.1.2
   intl_phone_field: ^3.2.0
   flutter_svg: ^2.1.0
-  rive: ^0.13.20
-  lottie: ^3.3.1
+  
 #
   intl: ^0.18.1
   table_calendar: ^3.0.9
@@ -96,8 +95,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/
-    - assets/rive/
+    - asset/images/
+    
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -114,13 +113,13 @@ flutter:
   fonts:
     - family: MPLUSRounded1c
       fonts:
-        - asset: assets/fonts/MPLUSRounded1c-Regular.ttf
-        - asset: assets/fonts/MPLUSRounded1c-Bold.ttf
-        - asset: assets/fonts/MPLUSRounded1c-Medium.ttf
-        - asset: assets/fonts/MPLUSRounded1c-Thin.ttf
-        - asset: assets/fonts/MPLUSRounded1c-Black.ttf
-        - asset: assets/fonts/MPLUSRounded1c-Light.ttf
-        - asset: assets/fonts/MPLUSRounded1c-ExtraBold.ttf
+        - asset: asset/font/MPLUSRounded1c-Regular.ttf
+        - asset: asset/font/MPLUSRounded1c-Bold.ttf
+        - asset: asset/font/MPLUSRounded1c-Medium.ttf
+        - asset: asset/font/MPLUSRounded1c-Thin.ttf
+        - asset: asset/font/MPLUSRounded1c-Black.ttf
+        - asset: asset/font/MPLUSRounded1c-Light.ttf
+        - asset: asset/font/MPLUSRounded1c-ExtraBold.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
