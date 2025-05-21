@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:orbis/domain/business%20logic/authentication/authcontroller/auth_cubit.dart';
-import 'package:orbis/domain/business%20logic/authentication/authcontroller/auth_state.dart';
+import 'package:orbis/domain/busineslogic/authentication/authcontroller/auth_cubit.dart';
+import 'package:orbis/domain/busineslogic/authentication/authcontroller/auth_state.dart';
 import 'package:orbis/presentation/widgets/backgroundauth.dart';
 import 'package:orbis/utils/constant/Responsive.dart';
 import 'package:orbis/utils/helper/color.dart';
