@@ -39,7 +39,7 @@ Map<String, Widget Function(BuildContext)> routes = {
   "/Mainscreen":(context)=>Mainscreen(),
   "/LocationScreen":(context)=>LocationScreen(),
   "/FavoriteScreen":(context)=>FavoriteScreen(),
-  "/BookingScreen":(context)=>BookingScreen(),
+  // "/BookingScreen":(context)=>BookingScreen(),
   "/ProfileScreen":(context)=>ProfileScreen(),
 
   ///////////////////////////
